@@ -1,9 +1,9 @@
-from tkinter import * 
-import random
-import ttkthemes
-from tkinter import ttk
-from time import sleep
-import threading
+from tkinter import * #for GUI
+import random  # used for getting random paragraph
+import ttkthemes  #pip installed for buttons
+from tkinter import ttk  
+from time import sleep  #for timer
+import threading  # for running two functions together
 
 
 #Functionality Part
@@ -80,7 +80,7 @@ def reset():
 
 
 
-#GUI 
+#GUI PART
 
 root=ttkthemes.ThemedTk()
 root.get_themes()
