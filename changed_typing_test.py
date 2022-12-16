@@ -119,9 +119,11 @@ paragraph_list=[
 
 random.shuffle(paragraph_list)
 
+#Paragraph Area
 label_paragraph=Label(paragraph_frame,text=paragraph_list[0],wraplength=912,justify=LEFT,font=('arial',14,'bold'),bg='grey26',fg='white')
 label_paragraph.grid(row=0,column=0)
 
+#Text Area
 textarea_frame=Frame(mainframe)
 textarea_frame.grid(row=2,column=0)
 
@@ -131,6 +133,7 @@ textarea.grid()
 frame_output=Frame(mainframe,bg='gray16')
 frame_output.grid(row=3,column=0)
 
+#Results
 elapsed_time_label=Label(frame_output,text='Elapsed Time',font=('Tahoma',13,'bold'),fg='yellow',bg='gray16')
 elapsed_time_label.grid(row=0,column=0,padx=5)
 
